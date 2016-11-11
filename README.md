@@ -16,3 +16,8 @@ If using the Awesome window manager, the awesome folder should be copied to `~/.
 + adding keybindings to use `ctrl + v + .` to increase volume, `ctrl + v + ,` to decrease volume, and `ctrl + v + /` to mute.   
    
 (Fair Warning: I may be forgetting something...)
+
+To change the clock to 12-hour instead of 24-hour time, edit `/usr/share/awesome/lib/awful/widget/textclock.lua` from  
+`local format = format or " %a %b %d, %H:%M %p "`   
+to   
+`local format = format or " %a %b %d, %I:%M %p "`

@@ -5,7 +5,9 @@ This is just a place for me to keep track of my must-have linux customizations.
 
 ## Home
 
-Anything in the home folder can be copied directly to `$HOME`. For the aliases to work, you'll need to add `source .bash_aliases` to the end of your `.bashrc`. The `update`, `install`, and `uninstall` aliases are for Arch Linux.
+Anything in the home folder can be copied directly to `$HOME`. For the aliases to work, you'll need to add `source .bash_aliases` to the end of your `.bashrc`. The `update`, `install`, and `uninstall` aliases are for Arch Linux.   
+
+You may also want to copy `.vimrc` to `/root/` so that the settings still apply when you `sudo vim`.
 
 ## Awesome WM
 

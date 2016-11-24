@@ -13,7 +13,8 @@ You may also want to copy `.vimrc` to `/root/` so that the settings still apply 
 
 If using the Awesome window manager, the awesome folder should be copied to `~/.config/`. The only real differences (as of 11/11/16) are:
 + switching the default terminal to terminator 
-+ adding keybindings to use `ctrl + v + .` to increase volume, `ctrl + v + ,` to decrease volume, and `ctrl + v + /` to mute.   
++ adding keybindings to use `ctrl + v + .` to increase volume, `ctrl + v + ,` to decrease volume, and `ctrl + v + /` to mute.
++ toggling off sloppy focus so the mouse no longer influences which client is in focus
    
 (Fair Warning: I may be forgetting something...)
 
